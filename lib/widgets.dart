@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// ******************** LESSON 1 ******************** //
+// ********************* LESSON 1 ********************* //
 
 // A widget is just an element of the screen. Buttons, text, etc.
 /* Stateful widgets are widgets that change when the user uses them.
