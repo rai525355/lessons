@@ -20,13 +20,13 @@ class _MoreWidgetsState extends State<MoreWidgets> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Stateful Widgets"),
+        title: const Text("Stateful Widgets"),
         backgroundColor: Colors.green,
       ),
       body: Center(
           child: Column(
         children: [
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           // This will create a button
@@ -41,7 +41,7 @@ class _MoreWidgetsState extends State<MoreWidgets> {
             },
             // Styling for a button
             style: ElevatedButton.styleFrom(
-              fixedSize: Size(350, 50),
+              fixedSize: const Size(350, 50),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),
               ),
@@ -64,7 +64,7 @@ class _MoreWidgetsState extends State<MoreWidgets> {
               ],
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           // Slider for stress level

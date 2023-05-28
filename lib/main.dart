@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lessons/widgets2.dart';
+import 'package:lessons/introToImages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home:
-            const MoreWidgets() //const MyHomePage(title: 'Flutter Demo Home Page'),
+            const AddImages() //const MyHomePage(title: 'Flutter Demo Home Page'),
         );
   }
 }
